@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { 
+      "path": "./tsconfig.app.json" 
+    },
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@pages/*": ["src/pages/*"],
+      "@shared/*": ["src/shared/*"],
+      "@widgets/*": ["src/widgets/*"],
+    }
+  }
+}

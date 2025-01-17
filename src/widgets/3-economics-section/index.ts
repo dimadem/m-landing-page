@@ -1,0 +1,1 @@
+export { EconomicsSecion } from './ui/economics-section';
